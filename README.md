@@ -35,7 +35,7 @@ Project Description: A robust and secure back-end authentication system built wi
 ### 2. Install dependencies
 - npm install
 
-
+##
 
 ### 3. Environment Variables
 - Create a .env file in the root directory and add your configuration (see .env.example for details):
@@ -49,7 +49,7 @@ JWT_REFRESH_TOKEN_TTL="7d"
 
 DATABASE_URL="postgresql://user:password@localhost:5432/mydb"
 
-
+##
 
 ### 4. Run the application
 - npm run start:dev
