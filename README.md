@@ -28,22 +28,25 @@ Project Description: A robust and secure back-end authentication system built wi
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/syf3rr/jwt-auth.git](https://github.com/syf3rr/jwt-auth.git)
+git clone https://github.com/syf3rr/jwt-auth.git
 ```
 ```bash
- cd jwt-auth
+cd jwt-auth
 ```
   
 ##
 
 ### 2. Install dependencies
-- npm install
+```bash
+npm install
+```
 
 ##
 
 ### 3. Environment Variables
 - Create a .env file in the root directory and add your configuration (see .env.example for details):
 
+```bash
 NODE_ENV="development"
 COOKIE_DOMAIN="localhost"
 
@@ -52,9 +55,11 @@ JWT_ACCESS_TOKEN_TTL="2h"
 JWT_REFRESH_TOKEN_TTL="7d"
 
 DATABASE_URL="postgresql://user:password@localhost:5432/mydb"
+```
 
 ##
 
 ### 4. Run the application
-- npm run start:dev
-
+```bash
+npm run start:dev
+```
