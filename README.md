@@ -1,4 +1,4 @@
-# JWT Authentication Service 🛡️
+# JWT Authentication Service 
 
 Project Description: A robust and secure back-end authentication system built with **Nest.js**. This project demonstrates best practices for user security, session management, and protecting routes using industry-standard JWT (JSON Web Tokens).
 
@@ -29,9 +29,13 @@ Project Description: A robust and secure back-end authentication system built wi
 ### 1. Clone the repository
 - git clone [https://github.com/syf3rr/jwt-auth.git](https://github.com/syf3rr/jwt-auth.git)
 - cd jwt-auth
+  
+---
 
 ### 2. Install dependencies
 - npm install
+
+---
 
 ### 3. Environment Variables
 - Create a .env file in the root directory and add your configuration (see .env.example for details):
@@ -44,6 +48,8 @@ JWT_ACCESS_TOKEN_TTL="2h"
 JWT_REFRESH_TOKEN_TTL="7d"
 
 DATABASE_URL="postgresql://user:password@localhost:5432/mydb"
+
+---
 
 ### 4. Run the application
 - npm run start:dev
