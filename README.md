@@ -18,3 +18,11 @@ Key Features:
   - Secure Password Management: All passwords are encrypted using Hash techniques before being saved to the database.
   - Automated Validation: Features a strict data validation layer using class-validator to ensure all incoming requests are properly formatted.
   - Modular Architecture: The system is organized into decoupled modules, making it easy to integrate into any existing microservice or monolith system.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## ⚙️ Installation & Setup
+1. **Clone the repository:** - git clone
+2. **Install dependencies:** - npm install
+3. **Environment Variables: Create a .env file in the root directory and add your configuration (see .env.example):** -
+4. **Run the application:** - npm run start:dev
