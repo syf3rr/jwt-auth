@@ -27,8 +27,12 @@ Project Description: A robust and secure back-end authentication system built wi
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-- git clone [https://github.com/syf3rr/jwt-auth.git](https://github.com/syf3rr/jwt-auth.git)
-- cd jwt-auth
+```bash
+git clone [https://github.com/syf3rr/jwt-auth.git](https://github.com/syf3rr/jwt-auth.git)
+```
+```bash
+ cd jwt-auth
+```
   
 ##
 
