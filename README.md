@@ -46,6 +46,5 @@ JWT_REFRESH_TOKEN_TTL="7d"
 DATABASE_URL="postgresql://user:password@localhost:5432/mydb"
 
 ### 4. Run the application
-# development mode
 npm run start:dev
 
