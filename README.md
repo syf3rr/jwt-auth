@@ -2,7 +2,7 @@
 
 Project Description: A robust and secure back-end authentication system built with **Nest.js**. This project demonstrates best practices for user security, session management, and protecting routes using industry-standard JWT (JSON Web Tokens).
 
----
+
 
 ## 🛠 Technologies Used:
 
@@ -12,7 +12,7 @@ Project Description: A robust and secure back-end authentication system built wi
 - **PostgreSQL & PrismaORM** — reliable data storage and management.
 - **Argon2** — secure password hashing and protection.
 
----
+
 
 ## ✨ Key Features:
 
@@ -22,19 +22,19 @@ Project Description: A robust and secure back-end authentication system built wi
 - **Automated Validation:** Features a strict data validation layer using `class-validator`.
 - **Modular Architecture:** Organized into decoupled modules, easy to integrate into microservices.
 
----
+
 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-git clone [https://github.com/syf3rr/jwt-auth.git](https://github.com/syf3rr/jwt-auth.git)
-cd jwt-auth
+- git clone [https://github.com/syf3rr/jwt-auth.git](https://github.com/syf3rr/jwt-auth.git)
+- cd jwt-auth
 
 ### 2. Install dependencies
-npm install
+- npm install
 
 ### 3. Environment Variables
-Create a .env file in the root directory and add your configuration (see .env.example for details):
+- Create a .env file in the root directory and add your configuration (see .env.example for details):
 
 NODE_ENV="development"
 COOKIE_DOMAIN="localhost"
@@ -46,5 +46,5 @@ JWT_REFRESH_TOKEN_TTL="7d"
 DATABASE_URL="postgresql://user:password@localhost:5432/mydb"
 
 ### 4. Run the application
-npm run start:dev
+- npm run start:dev
 
